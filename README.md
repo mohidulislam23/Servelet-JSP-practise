@@ -3,6 +3,8 @@
 make a web app on intellij <br>
 Generator: Maven Archetype <br>
 Archetype: org.apache.maven.archetypes:maven-archetype-webapp <br>
+![image](https://user-images.githubusercontent.com/131146060/234530419-b8c3586e-7d89-4d05-93b8-1beb97ee1a4f.png)
+
 
 
 # Download
