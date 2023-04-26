@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div>
 	<h1>Expense Manager</h1>
 	<h2>Display Expenses</h2>
 
@@ -54,7 +56,15 @@
 	    try { if (conn != null) conn.close(); } catch (Exception e) {};
 	}
 	%>
+	</div>
+
+	<div class="button-container">
+      <button class="go-to-home-button" onclick="goToHome()">Go to Home</button>
+      <script>
+          function goToHome() {
+              window.location.href = "index.jsp";
+          }
+      </script>
+    </div>
 </body>
 </html>
-
-<% response.sendRedirect("index.jsp"); %>
