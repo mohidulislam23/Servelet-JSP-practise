@@ -1,4 +1,9 @@
 # Servelet-JSP-practise
+<br><br>
+make a web app on intellij <br>
+Generator: Maven Archetype <br>
+Archetype: org.apache.maven.archetypes:maven-archetype-webapp <br>
+
 
 # Download
 -jre-8u371-windows-x64 <br>
