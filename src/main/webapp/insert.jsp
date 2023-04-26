@@ -22,8 +22,8 @@ try {
     conn = DriverManager.getConnection(url, username, password);
 
     // Prepare the SQL insert statement
-    String sql = "INSERT INTO expenses (category, date, name, description, amount) " +
-                 "VALUES (?, ?, ?, ?, ?)";
+    String sql = "INSERT INTO expenses (category, date, name, description, amount, expense_id) " +
+                 "VALUES (?, ?, ?, ?, ?, null)";
     stmt = conn.prepareStatement(sql);
     stmt.setString(1, category);
     stmt.setString(2, date);

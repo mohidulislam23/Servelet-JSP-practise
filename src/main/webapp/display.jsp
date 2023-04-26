@@ -56,3 +56,5 @@
 	%>
 </body>
 </html>
+
+<% response.sendRedirect("index.jsp"); %>
